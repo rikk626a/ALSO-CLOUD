@@ -1,0 +1,146 @@
+.lede {
+     font-size: 1.25em;
+}
+
+.center p {
+     padding: 0 5% 2% 5%;
+}
+
+.center iframe {
+     padding: 0 5% 0 5%;
+}
+
+
+/* modal */
+
+.center {
+     display: table;
+     width: 100%;
+     height: 100%;
+}
+
+.center__inner {
+     display: table-cell;
+     text-align: center;
+     vertical-align: middle;
+}
+
+@keyframes fade-in {
+     0% {
+          opacity: 0;
+     }
+     100% {
+          opacity: 1;
+     }
+}
+
+.modal__overlay {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background: rgba(0, 0, 0, 0.4);
+     display: none;
+     z-index: 1;
+}
+
+.modal__state:checked + .modal__overlay {
+     opacity: 1;
+     animation: fade-in 0.5s;
+     display: block;
+}
+
+@keyframes scoot-up {
+     0% {
+          margin-top: 80px;
+     }
+     100% {
+          margin-top: 50px;
+     }
+}
+
+.modal {
+     position: relative;
+     margin: 50px;
+     margin-top: 80px;
+     padding: 5% 2%;
+     background: #f7f7f7;
+     text-align: left;
+     box-shadow: 0px 0px 38px rgba(0, 0, 0, 0.);
+}
+
+.modal__state:checked + .modal__overlay .modal {
+     margin-top: 50px;
+     animation: scoot-up 0.2s;
+     animation-timing-function: ease-out;
+     transform-origin: 50% 0px;
+}
+
+.modal__close {
+     position: absolute;
+     top: 40px;
+     right: 20px;
+}
+
+.modal__overlay-close {
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     left: 0;
+     top: 0;
+}
+
+.modal__state {
+     display: none;
+}
+
+/* button styles */
+
+.button {
+     display: inline-block;
+     padding: 0.2em;
+     font-weight: bold;
+     border-radius: 4px;
+     box-shadow: 0 4px 0 #8cbcb8;
+     background: #ACCFCC;
+}
+
+.button:hover,
+.button:focus {
+     cursor: pointer;
+     background-color: #cce2e0;
+     box-shadow: 0 4px 0 #ACCFCC;
+}
+
+.button:active {
+     margin-top: 4px;
+     margin-bottom: -4px;
+     box-shadow: 0 0 0 #ACCFCC;
+}
+
+/* close button */
+
+.button--close {
+     padding: 0.2em 0.5em;
+     background-color: #8A0917;
+     box-shadow: 0 4px 0 #5a060f;
+     color: #fff;
+}
+
+
+
+.button--close:hover,
+.button--close:focus {
+     background-color: #ba0c1f;
+     box-shadow: 0 4px 0 #8A0917;
+}
+
+.button--close:active {
+     box-shadow: 0 0 0 #8A0917;
+}
+
+
+#containerZero {
+     display: none;
+}

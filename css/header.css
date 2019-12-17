@@ -1,0 +1,25 @@
+body {
+     background-color: #fff;
+     margin: 0;
+     padding: 0;
+
+}
+
+
+.container {
+     display: grid;
+     width: 100%;
+     height: 100%;
+     grid-template-areas: "header";
+     grid-template-columns: 1fr;
+     grid-template-rows: 250px;
+}
+
+
+.header {
+     grid-area: header;
+     background-color: darkslategrey;
+     background-image: url(/imgs/AdobeStock_248155420_Preview.jpeg);
+     background-repeat: no-repeat;
+     background-position: center;
+}
