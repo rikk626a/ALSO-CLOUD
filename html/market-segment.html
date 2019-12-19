@@ -7,7 +7,7 @@
      <title>MARKETPLACE EFTER SEGMENT</title>
 
      <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
-     <link href='/css/styles_marketplace.css' rel='stylesheet' type='text/css'>
+     <link href='../css/styles_marketplace.css' rel='stylesheet' type='text/css'>
 
      <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
 </head>
@@ -81,8 +81,17 @@
 
           <div id="b1" class="containerTab">
                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-               <h2>Box 1</h2>
-               <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+               <div class="left-cont">
+                    <img src="/imgs/1200px-Logo_Also_Holding.svg.png">
+                    <img src="/imgs/1200px-Logo_Also_Holding.svg.png" alt="also logo">
+                    <img src="/imgs/1200px-Logo_Also_Holding.svg.png" alt="also logo">
+                    <img src="/imgs/1200px-Logo_Also_Holding.svg.png" alt="also logo">
+               </div>
+               <div class="right-cont">
+                    <h2>Box 1</h2>
+                    <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+               </div>
+
           </div>
 
           <div id="b2" class="containerTab">
@@ -119,9 +128,10 @@
                }
                document.getElementById(tabName).style.display = "block";
           }
+
      </script>
 
-     <script src="/js/js.js"></script>
+     <script src="../js/js.js"></script>
 </body>
 
 </html>

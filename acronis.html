@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="DA">
+
+<head>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>ALSO Cloud Marketplace</title>
+
+     <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
+     <link href='/css/styles.css' rel='stylesheet' type='text/css'>
+     <link href='/css/modal.css' rel='stylesheet' type='text/css'>
+     <script type="text/javascript" src="/js/modal.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
+     <script src="https://kit.fontawesome.com/3e4e84bcfc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+     <input type="checkbox" name="modal__state" id="modal__state" class="modal__state">
+
+     <div class="modal__overlay">
+          <label for="modal__state" class="modal__overlay-close"></label>
+          <div class="modal">
+               <label class="button button--close modal__close" for="modal__state"><i class="fa fa-times"></i></label>
+
+
+          </div>
+     </div>
+
+
+
+     <div id="contentContainer">
+          <button id="one-bt" class="loadContent" data-file="index.html">first button</button>
+          <button id="two-bt" class="loadContent" data-url="file/anyfile2.html">Second button</button>
+          <button id="three-bt" class="loadContent" data-url="file/anyfile3.html">Third button</button>
+          <hr>
+          <!--below is the div in which i want to use load content by jquery .load() method-->
+          <div id="containerZero">
+
+               <section class="center">
+                    <div class="center__inner">
+                         <div class="content-acronis">
+                              <img src="/imgs/marketplace/Acronis-1200x450.png">
+
+                              <p>SkyKick er en global leverandør af cloud-baseret styringssoftware til partnerskaber inden for IT-løsninger. SkyKicks produkter bidrager til at opbygge succesfulde cloud-baserede aktiviteter ved at gøre det nemt og effektivt for IT-udbydere at migrere, foretage backup og håndtere deres kunder
+                         </div>
+                    </div>
+               </section>
+
+
+          </div>
+
+     </div>
+
+     <script src="/js/js.js"></script>
+     <script src="/js/modal.js"></script>
+</body>
+
+</html>

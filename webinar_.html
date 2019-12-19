@@ -4,15 +4,15 @@
 <head>
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <title>ALSO Cloud Marketplace</title>
+     <title>Webinar Videos</title>
 
      <link href='https://fonts.googleapis.com/css?family=Montserrat|Cardo' rel='stylesheet' type='text/css'>
-     <link href='../css/styles.css' rel='stylesheet' type='text/css'>
-     <link href='../css/modal.css' rel='stylesheet' type='text/css'>
-     <script type="text/javascript" src="../js/modal.js"></script>
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+     <link href='/css/styles_webinar_.css' rel='stylesheet' type='text/css'>
+     <link href='/css/modal.css' rel='stylesheet' type='text/css'>
      <script type="text/javascript" src="https://code.jquery.com/jquery-1.9.1.js"></script>
-     <script src="https://kit.fontawesome.com/3e4e84bcfc.js" crossorigin="anonymous"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/TweenMax.min.js"></script>
+
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                          <li><a href="index.html">OVERBLIK OVER SERVICES</a></li>
                          <li><a href="market-segment.html">MARKETPLACE EFTER SEGMENT</a></li>
                          <li><a href="converter.html">CONVERTER</a></li>
-                         <li><a href="WEBINAR.html">WEBINAR / SUPPORT VIDEO</a></li>
+                         <li><a href="#">WEBINAR / SUPPORT VIDEO</a></li>
                     </ul>
                </nav>
 
@@ -43,32 +43,46 @@
 
      </header>
 
-     <div class="hero">
+     <div class="hero ">
 
      </div>
      <div class="nav-o">
           <a href="index.html">OVERBLIK OVER SERVICES</a>
           <a href="market-segment.html">MARKETPLACE EFTER SEGMENT</a>
           <a href="converter.html">CONVERTER</a>
-          <a href="WEBINAR.html">WEBINAR / SUPPORT VIDEO</a>
+          <a href="#">WEBINAR / SUPPORT VIDEO</a>
 
      </div>
 
-     <div class="row content1 ">
 
-          <h1 class="sec01 "> Overblik over Services</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum, recusandae, at, labore velit eligendi amet nobis repellat natus sequi sint consectetur excepturi doloribus vero provident . Sit, eius, itaque, porro.</p>
+     <div class="row content ">
+          <p>ALSO har samlet alle relevante webinar – både kommende og on-demand. Derudover har vi samlet relevante materialer, som gør det nemmere for dig at tale forretningsmuligheder og tekniske aspekter, så du og dine kunder hurtigt i gang med at bruge de værdiskabende services. Har du nogle spørgsmål til services på ALSO Cloud Marketplace, kontakt venligst:
+               <br> Mike Lindrup, ISV-ansvarlig på mike.lindrup@also.com
+          </p>
+
+          <div id="myBtnContainer">
+               <button class="btn active" onclick="filterSelection('alle')"> Alle</button>
+               <button class="btn" onclick="filterSelection('csp')"> Microsoft CSP</button>
+               <button class="btn" onclick="filterSelection('backup')"> Backup og lagring</button>
+               <button class="btn" onclick="filterSelection('sikkerhed')"> IT sikkerhed</button>
+               <button class="btn" onclick="filterSelection('officeadd')"> Add-ins til Office 365</button>
+               <button class="btn" onclick="filterSelection('gdpr')"> GDPR</button>
+               <button class="btn" onclick="filterSelection('migrering')"> Migrering</button>
+               <button class="btn" onclick="filterSelection('remote')"> Remote Desktop</button>
+               <button class="btn" onclick="filterSelection('crm')"> CRM</button>
+          </div>
+
           <div class="container">
                <div class="card">
                     <div class="face face1">
                          <div class="content">
-                              <img src="/imgs/marketplace/ikon_MicrosoftCSP_2.png">
+                              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
                               <h3>Microsoft CSP</h3>
                          </div>
                     </div>
                     <div class="face face2">
                          <div class="content">
-                              <p>Med det stigende antal virksomheder, der vælger cloud løsninger har Microsoft set behovet for en mere fleksibel licensordning, der giver hurtig adgang til licenser og tillader løbende op- og nedjusteringer. Det er grundlaget for Cloud Solution Provider (CSP) programmet.</p>
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
                               <a href="#">Read More</a>
                          </div>
                     </div>
@@ -76,28 +90,9 @@
                <div class="card">
                     <div class="face face1">
                          <div class="content">
-                              <i class="fas fa-database"></i>
-                              <h3>Backup og lagring</h3>
-                         </div>
-                    </div>
-                    <div class="face face2">
-                         <div class="content">
-                              <label class="button" for="modal__state"><img src="/imgs/marketplace/Skykick_logo.svg"></label>
-                              <label class="button" for="modal__state">                              <img src="/imgs/marketplace/Acronis-1200x450.png"></label>
-                              <img src="/imgs/marketplace/DropSuite-logo-color-transparent-Background.png">
-                              <img src="/imgs/marketplace/nexetic-logo.png">
-                              <img src="/imgs/marketplace/nomadesk.png">
-                              <img src="/imgs/marketplace/avepoint-seeklogo.svg">
-
-
-                         </div>
-                    </div>
-               </div>
-               <div class="card">
-                    <div class="face face1">
-                         <div class="content">
-                              <img src="/imgs/marketplace/ikon_Sikkerhet_2.png">
-                              <h3>IT sikkerhed</h3>
+                              <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/370271079?byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe></div>
+                              <script src="https://player.vimeo.com/api/player.js"></script>
+                              <h3>Code</h3>
                          </div>
                     </div>
                     <div class="face face2">
@@ -110,8 +105,22 @@
                <div class="card">
                     <div class="face face1">
                          <div class="content">
-                              <img src="/imgs/marketplace/ikon_O365_Addons_2.png">
-                              <h3>Add-ins til Office 365</h3>
+                              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/launch_128.png?raw=true">
+                              <h3>Launch</h3>
+                         </div>
+                    </div>
+                    <div class="face face2">
+                         <div class="content">
+                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cum cumque minus iste veritatis provident at.</p>
+                              <a href="#">Read More</a>
+                         </div>
+                    </div>
+               </div>
+               <div class="card">
+                    <div class="face face1">
+                         <div class="content">
+                              <img src="https://github.com/Jhonierpc/WebDevelopment/blob/master/CSS%20Card%20Hover%20Effects/img/design_128.png?raw=true">
+                              <h3>Design</h3>
                          </div>
                     </div>
                     <div class="face face2">
@@ -183,73 +192,25 @@
 
           </div>
      </div>
-     <label class="button" for="modal__state"><img src="/imgs/marketplace/Skykick_logo.svg"></label>
-     <input type="checkbox" name="modal__state" id="modal__state" class="modal__state">
 
+     <label class="button" for="modal__state"><i class="fa fa-rocket"></i> Launch it!</label>
+     <input type="checkbox" name="modal__state" id="modal__state" class="modal__state">
      <div class="modal__overlay">
           <label for="modal__state" class="modal__overlay-close"></label>
           <div class="modal">
                <label class="button button--close modal__close" for="modal__state"><i class="fa fa-times"></i></label>
+               <h1>Here is the modal!</h1>
+               <p class="lede">Created with pure CSS, and probably non-functional in many browsers.</p>
+               <p>The <span class="button button--inline">launch</span> button is a <span class="code">&lt;label&gt;</span> attached to a radio <span class="code">&lt;input&gt;</span>. Clicking the label toggles the radio input. Using the <span class="code">:checked</span> pseudo-selector and the <span class="code">+</span> sibling selector, the <span class="code">.modal__wrapper</span> is made visible when the radio is checked.</p>
 
-               <section class="center">
-                    <div class="center__inner">
-                         <div id="skykick">
-                              <img src="/imgs/marketplace/Skykick_logo.svg">
-
-                              <p>SkyKick er en global leverandør af cloud-baseret styringssoftware til partnerskaber inden for IT-løsninger. SkyKicks produkter bidrager til at opbygge succesfulde cloud-baserede aktiviteter ved at gøre det nemt og effektivt for IT-udbydere at migrere, foretage backup og håndtere deres kunder i skyen. Mere end 5.000 partnere i 125 lande anvender SkyKicks produkter til at styrke deres cloud-baserede aktiviteter.
-                              </p>
-                              <iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/j1-Yhq8IKfQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-                              <iframe max-width="560" max-height="315" src="https://www.youtube.com/embed/HV-k4x0MKCQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                         </div>
-                    </div>
-               </section>
-
-          </div>
-     </div>
-     <label class="button acronis" for="modal__state">                              <img src="/imgs/marketplace/Acronis-1200x450.png"></label>
-     <input type="checkbox" name="modal__state" id="modal__state" class="modal__state">
-
-     <div class="modal__overlay">
-          <label for="modal__state" class="modal__overlay-close"></label>
-          <div class="modal">
-               <label class="button button--close modal__close" for="modal__state"><i class="fa fa-times"></i></label>
-
-               <section class="center">
-                    <div class="center__inner">
-                         <div class="content-acronis">
-                              <img src="/imgs/marketplace/Acronis-1200x450.png">
-
-                              <p>SkyKick er en global leverandør af cloud-baseret styringssoftware til partnerskaber inden for IT-løsninger. SkyKicks produkter bidrager til at opbygge succesfulde cloud-baserede aktiviteter ved at gøre det nemt og effektivt for IT-udbydere at migrere, foretage backup og håndtere deres kunder
-                         </div>
-                    </div>
-               </section>
-
+               <p>The close button in a second label/radio input with the same name attribute, so when it is clicked, the launch button loses its :checked state and the modal goes back to <span class="code">display: none</span>.
+                    <p>
           </div>
      </div>
 
-     <button>Change the content of the p elements</button>
 
-     <p>This is a paragraph.</p>
-     <p>This is another paragraph.</p>
-
-     <input type="radio" name="radiobutton" value="A" onClick="changeDivContent()">
-     <input type="radio" name="radiobutton" value="B" onClick="changeDivContent()">
-
-     <div id="1">
-          hello</div>
-
-     <div id="contentContainer">
-          <button id="one-bt" class="loadContent" data-url="file/anyfile1.html">first button</button>
-          <button id="two-bt" class="loadContent" data-url="file/anyfile2.html">Second button</button>
-          <button id="three-bt" class="loadContent" data-url="file/anyfile3.html">Third button</button>
-          <hr>
-          <!--below is the div in which i want to use load content by jquery .load() method-->
-          <div id="containerZero"></div>
-
-     </div>
-
-     <script src="../js/js.js"></script>
+     <script src="/js/js.js"></script>
+     <script src="/js/modal.js"></script>
 </body>
-
 </html>
+
