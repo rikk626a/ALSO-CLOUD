@@ -51,14 +51,77 @@
 
      </div>
 
-     <div class="row content ">
-          <h1 class="sec01 "> Rette produkter til rette slutkunder er vejen til vækst</h1>
+     <div class="row content1">
+
+          <h2>Rette produkter til rette slutkunder er vejen til vækst</h2>
+
           <p>Hos ALSO har vi fokus på kunderejsen, så vi kan hjælpe vores partnere og vejlede jer i forretningsudvikling og den rette go-to-market strategi, så jeres kunder kan få bedst mulige service til deres behov. ALSO Cloud Marketplace tilbyder et hav af services til forskellige typer og størrelser af virksomheder. Derfor har vi hos ALSO gjort det nemmere at finde de rette services på ALSO Cloud Marketplace, hvor du kan lave din egen white-label Marketplace med de licenser. som passer bedst til dine kunder. Med hjælp fra ALSOs erfarne salgs- og produktspecialister har vi sammensat de bedste produkter set i forhold til både pris og behov.
           </p>
+
+
+
+          <div class="row-supp">
+               <div class="column b1" onclick="openTab('b1')">
+                    <h3>1 - 20</h3>
+               </div>
+               <div class="column b2" onclick="openTab('b2')">
+                    <h3> 21 - 50</h3>
+               </div>
+               <div class="column b3" onclick="openTab('b3')">
+                    <h3> 51 - 150</h3>
+               </div>
+               <div class="column b4" onclick="openTab('b4')">
+                    <h3> 151 -250</h3>
+               </div>
+               <div class="column b5" onclick="openTab('b5')">
+                    <h3> 251 +</h3>
+               </div>
+          </div>
+
+
+          <div id="b1" class="containerTab">
+               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+               <h2>Box 1</h2>
+               <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+          </div>
+
+          <div id="b2" class="containerTab">
+               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+               <h2>Box 2</h2>
+               <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+          </div>
+
+          <div id="b3" class="containerTab">
+               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+               <h2>Box 3</h2>
+               <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+          </div>
+
+          <div id="b4" class="containerTab">
+               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+               <h2>Box 4</h2>
+               <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+          </div>
+
+          <div id="b5" class="containerTab">
+               <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+               <h2>Box 5</h2>
+               <p>Lorem ipsum dolor sit amet, te quo doctus abhorreant, et pri deleniti intellegat, te sanctus inermis ullamcorper nam. Ius error diceret deseruisse ad</p>
+          </div>
      </div>
+
+     <script>
+          function openTab(tabName) {
+               var i, x;
+               x = document.getElementsByClassName("containerTab");
+               for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+               }
+               document.getElementById(tabName).style.display = "block";
+          }
+     </script>
 
      <script src="/js/js.js"></script>
 </body>
 
 </html>
-

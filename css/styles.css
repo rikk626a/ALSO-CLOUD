@@ -7,7 +7,7 @@ body {
 }
 
 .nav-o {
-     font-size: 1.1vw;
+     font-size: 14px;
      text-align: center;
      top: 500;
      line-height: 60px;
@@ -17,16 +17,23 @@ body {
 }
 
 .nav-o a {
+     border-radius: 2px;
      font-family: "Montserrat", sans-serif;
      color: #8f8f8f;
      display: inline-block;
      padding: 10px 15px;
+     margin: 0 1% 0 1%;
      line-height: 1.1;
      text-decoration: none;
      background-color: #fff;
+     font-weight: 100;
 
 }
 
+.nav-o a:hover {
+     background-color: rgb(255, 255, 255, 0.5);
+     font-weight: 600;
+}
 
 @media only screen and (max-width: 766px) {
      nav {

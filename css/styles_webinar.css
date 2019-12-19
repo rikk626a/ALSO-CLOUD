@@ -6,8 +6,15 @@ body {
      -webkit-font-smoothing: antialiased;
 }
 
+h1 {
+     font-size: 30px;
+     line-height: 1.8;
+     text-transform: uppercase;
+     font-family: "Montserrat", sans-serif;
+}
+
 .nav-o {
-     font-size: 1.1vw;
+     font-size: 14px;
      text-align: center;
      top: 500;
      line-height: 60px;
@@ -17,14 +24,22 @@ body {
 }
 
 .nav-o a {
-     font-family: "Raleway", sans-serif;
+     border-radius: 2px;
+     font-family: "Montserrat", sans-serif;
      color: #8f8f8f;
      display: inline-block;
      padding: 10px 15px;
+     margin: 0 1% 0 1%;
      line-height: 1.1;
      text-decoration: none;
      background-color: #fff;
+     font-weight: 100;
 
+}
+
+.nav-o a:hover {
+     background-color: rgb(255, 255, 255, 0.5);
+     font-weight: 600;
 }
 
 
@@ -249,11 +264,10 @@ p {
 
 
 .filterDiv {
-     border-radius: 20px;
-     padding: 5px;
+     border-radius: 2px;
      margin: 2% 2% 2% 2%;
      float: left;
-     background-color: #f1f3f6;
+     background-color: #fff;
      color: #666;
      width: 400px;
      min-width: 200px;
@@ -270,8 +284,11 @@ h2,
 h3,
 p {
      line-height: 1;
+     text-align: left;
+
 
 }
+
 
 .show {
      display: block;
@@ -281,7 +298,6 @@ p {
      min-height: 200px;
      margin-top: 20px;
      overflow: hidden;
-     background-color: red;
      width: 100%;
 }
 
@@ -311,8 +327,8 @@ p {
 .fadeIn {
      animation-name: fadeIn;
      -webkit-animation-name: fadeIn;
-     animation-duration: 2s;
-     -webkit-animation-duration: 2s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
      animation-timing-function: ease-in-out;
      -webkit-animation-timing-function: ease-in-out;
      visibility: visible !important;
@@ -334,4 +350,39 @@ p {
      100% {
           opacity: 1;
      }
+}
+
+
+
+.column {
+     float: left;
+     max-width: 33.33%;
+     padding: 50px;
+     text-align: center;
+     font-size: 25px;
+     cursor: pointer;
+     color: white;
+}
+
+.containerTab {
+     padding: 20px;
+     color: white;
+     min-height: 200px;
+}
+
+
+
+.row-supp:after {
+     content: "";
+     display: table;
+     clear: both;
+}
+
+
+
+.closebtn {
+     float: right;
+     color: white;
+     font-size: 35px;
+     cursor: pointer;
 }
