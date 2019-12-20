@@ -285,10 +285,9 @@ h3,
 p {
      line-height: 1;
      text-align: left;
-
+     font-family: "Montserrat", sans-serif;
 
 }
-
 
 .show {
      display: block;
