@@ -1,0 +1,188 @@
+body {
+     margin: 0;
+     padding: 0;
+     color: #8f8f8f;
+     background-color: #f8f8f8;
+     -webkit-font-smoothing: antialiased;
+     font-family: "Raleway", sans-serif;
+}
+
+
+
+* {
+     box-sizing: border-box;
+}
+
+.text-box {
+     max-width: 100%;
+     display: grid;
+     grid-template-columns: 40% 60%;
+     margin-left: 10%;
+
+
+}
+
+.grid-item1 h1 p {
+
+     text-align: center;
+}
+
+
+.grid-item2 {
+     width: 100%;
+     display: grid;
+     grid-template-columns: 50% 50%;
+     height: 100%;
+     background-color: #f1f1f1;
+
+}
+
+.item2-text p,
+h2 {
+     font-family: sans-serif, "Raleway";
+     padding 50% 20%;
+     text-align: center;
+}
+
+.grid-item2 img {
+     max-height: 450px;
+}
+
+.grid-item2 button {
+     text-align: center;
+     border: none;
+     background-color: #88e872;
+     padding: 12px 16px;
+     cursor: pointer;
+}
+
+.grid-item2 button:hover {
+     border-style: solid;
+     border-width: 2px;
+     border-color: #88e872;
+     background-color:
+}
+
+
+.text-filter {
+     width: 100%;
+     display: block;
+}
+
+.row {
+     width: 100%;
+     margin: 0;
+     position: relative;
+}
+
+
+.content {
+     padding: 10% 2% 0px 0px;
+}
+
+#myBtnContainer {
+     width: 100%;
+     margin: 0% 0% 0% 2%;
+     background-color: #f1f1f1;
+
+}
+
+.filterDiv {
+     border-radius: 10px;
+     margin: 2% 2% 2% 2%;
+     float: left;
+     background-color: #f8f8f8;
+     color: #666;
+     width: 400px;
+     min-width: 200px;
+     height: 450px;
+     display: none;
+     font-family: "Raleway", sans-serif;
+     -webkit-box-shadow: -10px 0px 13px -7px #666, 10px 0px 13px -7px #666, 5px 5px 30px 50px rgba(0, 0, 0, 0);
+     box-shadow: -15px -15px 50px -50px rgba(255, 255, 255, 1), 15px 15px 50px rgba(55, 84, 170, 0.10), inset 5px 5px 2px -20px rgba(255, 255, 255, 1)
+}
+
+.filterDiv h3,
+h4,
+p {
+     text-align: left;
+     margin: 3% 3%;
+
+
+}
+
+.filterDiv h3 {
+     font-weight: 500;
+}
+
+
+.filterDiv h4 {
+     font-weight: 400;
+     line-height: 0.5;
+
+}
+
+
+.show {
+     display: block;
+}
+
+.container {
+     min-height: 200px;
+     margin-top: 20px;
+     overflow: hidden;
+     width: 100%;
+}
+
+
+.btn {
+     border: none;
+     outline: none;
+     padding: 12px 16px;
+     background-color: #f1f1f1;
+     cursor: pointer;
+}
+
+.btn:hover {
+     background-color: #ddd;
+}
+
+.btn.active {
+     background-color: #666;
+     color: white;
+}
+
+
+.fadedfx {
+     visibility: hidden;
+}
+
+.fadeIn {
+     animation-name: fadeIn;
+     -webkit-animation-name: fadeIn;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+     animation-timing-function: ease-in-out;
+     -webkit-animation-timing-function: ease-in-out;
+     visibility: visible !important;
+}
+
+@keyframes fadeIn {
+     0% {
+          opacity: 0.0;
+     }
+
+     100% {
+          opacity: 1;
+     }
+}
+
+@-webkit-keyframes fadeIn {
+     0% {
+          opacity: 0.0;
+     }
+
+     100% {
+          opacity: 1;
+     }
+}

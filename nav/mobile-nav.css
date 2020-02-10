@@ -1,0 +1,55 @@
+@media only screen and (max-width: 766px) {
+     .topnav {
+          position: relative;
+          overflow: hidden;
+          background-color: #fff;
+          box-shadow: inset lightgray 0 -1px 0, rgba(0, 0, 0, 0.15) 0 3px 10px 0;
+          z-index: 100;
+          width: 100%;
+     }
+
+     .topnav #myLinks {
+          display: none;
+     }
+
+     .topnav a {
+          color: #333;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+          display: block;
+     }
+
+     .topnav a.icon {
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+          font-size: 5vw;
+     }
+
+
+
+     .topnav img {
+          max-height: 50px;
+     }
+
+     .topnav h5 {
+          text-align: center;
+          line-height: 2.5;
+          font-weight: 500;
+          transition: 0.3s ease-in-out;
+          width: 100%;
+     }
+
+     .topnav h5:hover {
+          text-align: center;
+          color: #888;
+
+          border-bottom-style: solid;
+          border-color: #88e872;
+          transition: 0.3s ease-in-out;
+
+
+
+     }

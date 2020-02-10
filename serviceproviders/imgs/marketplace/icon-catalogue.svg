@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="64" viewBox="0 0 65 64">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M1.506 63h62V35h-62z"/>
+        <path fill="#65CDEF" d="M1.506 23v12a7 7 0 0 0 7 7h48a7 7 0 0 0 7-7V23h-62z"/>
+        <path fill="#00B5E2" d="M1.506 28h62v-5h-62z"/>
+        <path stroke="#4D5152" stroke-width="2" d="M63.506 35a7 7 0 0 1-7 7h-48a7 7 0 0 1-7-7"/>
+        <path stroke="#4D5152" stroke-width="2" d="M1.506 63h62V23h-62zM27.506 38h10M32.506 35v-2"/>
+        <path fill="#89E872" d="M10.506 63h6V21h-6z"/>
+        <path stroke="#4D5152" stroke-width="2" d="M10.506 63h6V21h-6z"/>
+        <path fill="#FFF" d="M9.506 46h8v-8h-8z"/>
+        <path stroke="#4D5152" stroke-width="2" d="M9.506 46h8v-8h-8zM13.506 41v5M13.506 35v-2M13.506 49v2M13.506 53v2"/>
+        <path fill="#89E872" d="M48.506 63h6V21h-6z"/>
+        <path stroke="#4D5152" stroke-width="2" d="M48.506 63h6V21h-6z"/>
+        <path fill="#FFF" d="M47.506 46h8v-8h-8z"/>
+        <path stroke="#4D5152" stroke-width="2" d="M47.506 46h8v-8h-8zM51.506 41v5M51.506 35v-2M51.506 49v2M51.506 53v2M44.506 17v6h-24v-6c0-1.656 1.344-3 3-3h18c1.656 0 3 1.344 3 3z"/>
+        <path fill="#FFC469" d="M37.506 2V0h-12v2l-3 8v6a2 2 0 0 0 4 0v1a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0V9l-5-7z"/>
+        <path stroke="#4D5152" stroke-width="2" d="M25.506 0v2l-3 8v6a2 2 0 0 0 4 0v1a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0v-6M34.506 17v-2M30.506 17v-2M26.506 16v-1"/>
+        <path stroke="#4D5152" stroke-width="2" d="M38.506 17a2 2 0 0 0 4 0V9l-5-7V0"/>
+    </g>
+</svg>

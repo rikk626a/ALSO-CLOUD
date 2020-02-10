@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="54" viewBox="0 0 65 54">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#89E872" d="M59.816 14l-18 18-18-11-18 18V1h54z"/>
+        <path fill="#00B5E2" d="M23.816 53h-18V39l18-18zM23.816 21v32h18V32z"/>
+        <path fill="#65CDEF" d="M59.816 14l-18 18v21h18z"/>
+        <path stroke="#4D5152" stroke-width="2" d="M5.816 53h54V1h-54zM41.816 32l18-18M23.816 21l18 11M5.816 39l18-18"/>
+        <path fill="#FFF" d="M9.816 39a4 4 0 1 1-8 0 4 4 0 0 1 8 0"/>
+        <path stroke="#4D5152" stroke-width="2" d="M9.816 39a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
+        <path fill="#FFF" d="M27.816 21a4 4 0 1 1-8 0 4 4 0 0 1 8 0"/>
+        <path stroke="#4D5152" stroke-width="2" d="M27.816 21a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
+        <path fill="#FFF" d="M45.816 32a4 4 0 1 1-8 0 4 4 0 0 1 8 0"/>
+        <path stroke="#4D5152" stroke-width="2" d="M45.816 32a4 4 0 1 1-8 0 4 4 0 0 1 8 0z"/>
+        <path fill="#FFF" d="M63.816 14a4 4 0 1 1-8 0 4 4 0 0 1 8 0"/>
+        <path stroke="#4D5152" stroke-width="2" d="M63.816 14a4 4 0 1 1-8 0 4 4 0 0 1 8 0zM20.816 7h-2M16.816 7h-2M12.816 7h-2"/>
+    </g>
+</svg>
